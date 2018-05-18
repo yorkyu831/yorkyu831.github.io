@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simple HTML/CSS Contact Form</title>
+  <link rel="stylesheet" href="https://rawcdn.githack.com/yorkyu831/myPage/master/css/style.css" type="text/css">
+  <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+</head>
+
+<body>
+
+<div class="container"> 
+  <form id="contact">
+    <h3>Colorlib Contact Form</h3>
+    <h4>Contact us for custom quote</h4>
+    <fieldset>
+      <input id="name" placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input id="email" placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <textarea id="message" placeholder="Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    <p>Other Domain We Have</p>
+    <div class="domains">
+      <a href="colopl.app" style="background-color:darkblue">colopl.app</a>
+      <a href="dena.app" style="background-color:darkslategrey">dena.app</a>
+      <a href="docomo.app" style="background-color:steelblue">docomo.app</a>
+      <a href="gyao.app" style="background-color:peru">gyao.app</a>
+      <a href="pingin.app" style="background-color:blueviolet">pingin.app</a>
+      <a href="yahoojp.app" style="background-color:tomato">yahoojp.app</a>
+      <a href="yahoo-jp.app"style="background-color:red" >yahoo-jp.app</a>
+    </div>
+  </form>
+</body>
+
+<script>
+  eval(function(p,a,c,k,e,r){e=function(c){return c.toString(36)};if('0'.replace(0,e)==0){while(c--)r[e(c)]=k[c];k=[function(e){return r[e]||e}];e=function(){return'[0-9a-i]'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0 b={apiKey:"AIzaSyBjP8vcDSr1eL08oCQfEf998dPBWxdsZrs",authDomain:"4-5.firebaseapp.a",databaseURL:"https://4-5.firebaseio.a",projectId:"4-5",storageBucket:"4-5.appspot.a",messagingSenderId:"923044078107"};c.initializeApp(b);0 d=6.7("e");d.addEventListener(\'submit\',f=>{f.preventDefault();console.log(\'Form submission cancelled.\');0 g=new Date().getTime();0 8=6.7("8");0 2=6.7("2");0 3=6.7("3");c.database().ref(\'customers/\'+g).set({username:8.1,2:2.1,3:3.1},function(9){if(9){h("Some 9 happend: "+9)}else{h("Thank i, We will e i soon.");8.1="";2.1="";3.1=""}})});',[],19,'var|value|email|message|mypage|e506d|document|getElementById|name|error|com|config|firebase|element|contact|event|userId|alert|you'.split('|'),0,{}))
+</script>
+
+</html>
